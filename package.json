@@ -15,7 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "node postinstall.js",
-    "test": "./parity.exe --version"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
