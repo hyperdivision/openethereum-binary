@@ -11,13 +11,12 @@ const linuxSha256 = 'fe992f0c9b229a4406e82b9ff6d388f4acb4d6ce2782cb79b7bc379e796
 
 var url
 var sha
-var exeName = 'parity'
+var exeName = 'parity.exe'
 
 switch (os.platform()) {
   case 'win32':
     url = 'https://releases.parity.io/ethereum/v2.7.2/x86_64-pc-windows-msvc/parity.exe'
     sha = win32Sha256
-    exeName = 'parity.exe'
     break
   case 'darwin':
     url = 'https://releases.parity.io/ethereum/v2.7.2/x86_64-apple-darwin/parity'

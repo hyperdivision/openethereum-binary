@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Download latest parity and export the path",
   "main": "index.js",
+  "bin": {
+    "parity": "./parity.exe"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -12,7 +15,7 @@
   "devDependencies": {},
   "scripts": {
     "postinstall": "node postinstall.js",
-    "test": "./parity --version"
+    "test": "./parity.exe --version"
   },
   "repository": {
     "type": "git",
