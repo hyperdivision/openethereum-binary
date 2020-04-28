@@ -1,5 +1,7 @@
 # `parity-binary`
 
+[![Build Status](https://travis-ci.org/hyperdivision/parity-binary.svg?branch=master)](https://travis-ci.org/hyperdivision/parity-binary)
+
 > Download latest parity and export the path
 
 ## Usage
