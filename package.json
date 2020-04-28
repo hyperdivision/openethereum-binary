@@ -1,0 +1,28 @@
+{
+  "name": "parity-binary",
+  "version": "0.0.0",
+  "description": "Download latest parity and export the path",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "simple-get": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "./parity --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperdivision/parity-binary.git"
+  },
+  "keywords": [],
+  "author": "Emil Bay <github@tixz.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperdivision/parity-binary/issues"
+  },
+  "homepage": "https://github.com/hyperdivision/parity-binary#readme"
+}
