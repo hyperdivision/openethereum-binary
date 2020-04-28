@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "postinstall": "node postinstall.js",
+    "install": "node install.js",
     "test": "node test"
   },
   "repository": {
