@@ -1,6 +1,6 @@
 {
   "name": "openethereum-binary",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Download latest openethereum and export the path",
   "main": "index.js",
   "bin": {
