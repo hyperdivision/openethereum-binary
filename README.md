@@ -1,5 +1,7 @@
 # `parity-binary`
 
+## Renamed to [`openethereum-binary`](https://www.npmjs.com/package/openethereum-binary)
+
 [![Build Status](https://travis-ci.org/hyperdivision/parity-binary.svg?branch=master)](https://travis-ci.org/hyperdivision/parity-binary)
 
 > Download latest parity and export the path
