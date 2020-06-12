@@ -1,16 +1,18 @@
 {
-  "name": "parity-binary",
+  "name": "openethereum-binary",
   "version": "1.0.4",
-  "description": "Download latest parity and export the path",
+  "description": "Download latest openethereum and export the path",
   "main": "index.js",
   "bin": {
-    "parity": "./parity.exe"
+    "parity": "./openethereum.exe",
+    "openethereum": "./openethereum.exe"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "simple-get": "^3.1.0"
+    "simple-get": "^3.1.0",
+    "unzipper": "^0.10.11"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyperdivision/parity-binary.git"
+    "url": "git+https://github.com/hyperdivision/openethereum-binary.git"
   },
   "keywords": [],
   "author": "Emil Bay <github@tixz.dk>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hyperdivision/parity-binary/issues"
+    "url": "https://github.com/hyperdivision/openethereum-binary/issues"
   },
-  "homepage": "https://github.com/hyperdivision/parity-binary#readme"
+  "homepage": "https://github.com/hyperdivision/openethereum-binary#readme"
 }

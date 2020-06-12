@@ -1,10 +1,8 @@
-# `parity-binary`
+# `openethereum-binary` (formerly `parity-binary`)
 
-## Renamed to [`openethereum-binary`](https://www.npmjs.com/package/openethereum-binary)
+[![Build Status](https://travis-ci.org/hyperdivision/openethereum-binary.svg?branch=master)](https://travis-ci.org/hyperdivision/openethereum-binary)
 
-[![Build Status](https://travis-ci.org/hyperdivision/parity-binary.svg?branch=master)](https://travis-ci.org/hyperdivision/parity-binary)
-
-> Download latest parity and export the path
+> Download latest openethereum and export the path
 
 ## Usage
 
@@ -25,7 +23,7 @@ Get the version of the executable
 ## Install
 
 ```sh
-npm install parity-binary
+npm install openethereum-binary
 ```
 
 ## License
