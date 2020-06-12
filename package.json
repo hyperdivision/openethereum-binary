@@ -1,6 +1,6 @@
 {
   "name": "parity-binary",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Download latest parity and export the path",
   "main": "index.js",
   "bin": {
