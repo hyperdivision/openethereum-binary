@@ -1,8 +1,8 @@
-# `openethereum-binary` (formerly `parity-binary`)
+# `openethereum-binary`
 
 [![Build Status](https://travis-ci.org/hyperdivision/openethereum-binary.svg?branch=master)](https://travis-ci.org/hyperdivision/openethereum-binary)
 
-> Download latest openethereum and export the path
+> Download latest openethereum and export the path (formerly `parity-binary`)
 
 ## Usage
 
