@@ -12,6 +12,7 @@ const linuxSha256 = '8dd753058e5db77ffaede5a53418005f9c8133212448e11df9169a651cd
 var url
 var sha
 var exeName = 'openethereum.exe'
+const win32 = os.platform() === 'win32'
 
 switch (os.platform()) {
   case 'win32':
@@ -52,7 +53,7 @@ get(url, function (err, res) {
       process.exit(1)
     }
 
-    fs.renameSync(tmpFile + '/openethereum', path.resolve(__dirname, exeName))
+    fs.renameSync(path.join(tmpFile, 'openethereum' + (win32 ? '.exe' : '')), path.resolve(__dirname, exeName))
     fs.chmodSync(path.resolve(__dirname, exeName), 0o777)
   })
 
