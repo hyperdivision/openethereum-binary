@@ -4,8 +4,7 @@
   "description": "Download latest openethereum and export the path",
   "main": "index.js",
   "bin": {
-    "openethereum": "./openethereum.exe",
-    "parity": "./openethereum.exe"
+    "openethereum": "./openethereum.exe"
   },
   "publishConfig": {
     "access": "public"
