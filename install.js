@@ -5,9 +5,9 @@ const fs = require('fs')
 const stream = require('stream')
 const path = require('path')
 
-const win32Sha256 = '42c05ed84a0588110afd8fe379685335cf792660d6684fc90cdac54695dda636'
-const darwinSha256 = 'f41cb1f49727ccf09e4f34b964fdfa9ad3802a046f6acd6c349a41020cdcf1c7'
-const linuxSha256 = '8dd753058e5db77ffaede5a53418005f9c8133212448e11df9169a651cdac997'
+const win32Sha256 = ''
+const darwinSha256 = '78cbb9c6b6f8d1cb40d7e65d152062d2e259e73fa85b83d3b8e778d62ddf9ba2'
+const linuxSha256 = '1bed234e83fa9196feffe1d5d3fdc23fb68b2cd4fbbfab579ff4ca058c3b3cb2'
 
 var url
 var sha
@@ -15,16 +15,16 @@ var exeName = 'openethereum.exe'
 const win32 = os.platform() === 'win32'
 
 switch (os.platform()) {
-  case 'win32':
-    url = 'https://github.com/openethereum/openethereum/releases/download/v3.0.1/openethereum-windows-v3.0.1.zip'
-    sha = win32Sha256
-    break
+  //case 'win32':
+  //  url = ''
+  //  sha = win32Sha256
+  //  break
   case 'darwin':
-    url = 'https://github.com/openethereum/openethereum/releases/download/v3.0.1/openethereum-macos-v3.0.1.zip'
+    url = 'https://github.com/openethereum/openethereum/releases/download/v3.1.1/openethereum-macos-v3.1.1.zip'
     sha = darwinSha256
     break
   case 'linux':
-    url = 'https://github.com/openethereum/openethereum/releases/download/v3.0.1/openethereum-linux-v3.0.1.zip'
+    url = 'https://github.com/openethereum/openethereum/releases/download/v3.1.1/openethereum-linux-v3.1.1.zip'
     sha = linuxSha256
     break
   default:
